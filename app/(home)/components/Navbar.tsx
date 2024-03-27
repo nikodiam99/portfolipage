@@ -25,11 +25,11 @@ export default function Navbar() {
   
     return (
     <nav className='py-10 flex justify-between items-center '>
-        <h1 className='text-2xl font-bold underline underline-offset-8 -rotate-2 decoration-cyan-500'>
+        <h1 className='text-2xl font-bold underline underline-offset-8 -rotate-2 decoration-cyan-500 z-10'>
             Niko🪼
         </h1>
 
-        <div className='flex items-center gap-5'>
+        <div className='flex items-center gap-5 z-10'>
             {socials.map((social,index)=>{
                 const Icon = social.Icon
                 return <Link href={social.link} key={index} aria-label={social.label}>

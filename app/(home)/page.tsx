@@ -6,12 +6,11 @@ import { BackgroundBeams } from './components/ui/background-beams';
 export default function page() {
   return (
     <div className='min-h-screen bg-black overflow-hidden'>
-      <div className="max-w-7xl mx-auto p5">
       <BackgroundBeams/>
+      <div className="max-w-7xl mx-auto p5 z-10">
       <Navbar/>
       <HeroSection/>
       </div>
-
     </div>
   )
 }
