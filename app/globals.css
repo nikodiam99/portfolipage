@@ -74,3 +74,14 @@
     @apply bg-background text-foreground;
   }
 }
+
+.glow{
+  
+    width: 0px;
+    height: 0px;
+    border-radius: 50%;
+    box-shadow: 0 0 200px 130px #16a34a;
+    /* in order: x offset, y offset, blur size, spread size, color */
+    /* blur size and spread size are optional (they default to 0) */
+  
+}

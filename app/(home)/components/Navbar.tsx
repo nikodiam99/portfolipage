@@ -24,7 +24,7 @@ export default function Navbar() {
     ]
   
     return (
-    <nav className='py-10 flex justify-between items-center px-10'>
+    <nav className='py-10 flex justify-between items-center '>
         <h1 className='text-2xl font-bold underline underline-offset-8 -rotate-2 decoration-cyan-500'>
             Niko🪼
         </h1>
