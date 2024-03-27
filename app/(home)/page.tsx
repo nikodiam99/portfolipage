@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from './components/Navbar'
+import HeroSection from './components/HeroSection'
 
 export default function page() {
   return (
@@ -7,6 +8,7 @@ export default function page() {
       <div className="max-w-7xl mx-auto"></div>
       
       <Navbar/>
+      <HeroSection/>
 
     </div>
   )
