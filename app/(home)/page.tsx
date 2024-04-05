@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import HeroSection from './components/HeroSection'
 import { BackgroundBeams } from '../../components/ui/background-beams';
 import Skills from './components/Skills';
+import Projects from './components/Projects';
 
 export default function page() {
   return (
@@ -20,6 +21,7 @@ export default function page() {
 
       <div className='max-w-7xl mx-auto p5 mt-20'>
         <Skills/>
+        <Projects/>
       </div>
 
     </div>
