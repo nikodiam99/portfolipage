@@ -4,10 +4,11 @@ import HeroSection from './components/HeroSection'
 import { BackgroundBeams } from '../../components/ui/background-beams';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
+import Footer from './components/Footer';
 
 export default function page() {
   return (
-    <div className='min-h-[400vh] bg-black overflow-hidden'>
+    <div className='min-h-screen bg-black overflow-hidden'>
       <div className='relative'>
       <BackgroundBeams/>
           <div className="max-w-7xl mx-auto p5 ">
@@ -22,6 +23,7 @@ export default function page() {
       <div className='max-w-7xl mx-auto p5 mt-20'>
         <Skills/>
         <Projects/>
+        <Footer/>
       </div>
 
     </div>
