@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 	},
 
 	description:
-		"Based in Toronto, I am a 2024 CS graduate currently learning fullstack web development and SwiftUI.",
+		"Based in Toronto, I am a 2024 CS graduate currently learning fullstack web development and Data Analytics.",
 	openGraph: {
 		title: "nikodiam",
 		description:
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
 		images: "/og.png",
 		type: "website",
 	},
-	keywords: ["daily web coding", "chensokheng", "dailywebcoding"],
+	keywords: ["nikodiam", "nikodiam99", "Nikolaos"],
 };
 
 export default function RootLayout({
