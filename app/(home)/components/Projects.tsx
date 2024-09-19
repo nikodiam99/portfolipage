@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaJava } from 'react-icons/fa'
-import { SiCss3, SiExpress, SiHtml5, SiJavascript, SiMongodb, SiMysql, SiNodedotjs, SiReact, SiSpringboot } from 'react-icons/si'
+import { SiCss3, SiExpress, SiHtml5, SiJavascript, SiMongodb, SiMysql, SiNodedotjs, SiPython, SiReact, SiSpringboot } from 'react-icons/si'
 import Title from './Title';
 import Link from 'next/link';
 import { cn } from '@/lib/utils';
@@ -28,6 +28,13 @@ export default function Projects() {
             link: "https://github.com/nikodiam99/ImageLookup",
             cover: "/imagelookup.png",
             background: "bg-green-500"
+        },
+        {
+            title: "Algorithm Visualizer",  
+            tech: [SiPython],
+            link: "https://github.com/nikodiam99/Algorithm-Visualizer",
+            cover: "/sortpic.png",
+            background: "bg-cyan-500"
         },
     ];
     return (
